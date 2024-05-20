@@ -1,0 +1,249 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/* registration code */
+.form-section {
+    width: 95%;
+    height: 550px auto;
+    margin: 1em auto;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.2);
+}
+
+.form-section .box1{
+    width: 50%;
+    background: linear-gradient(to right, #1b1b1b7e, #1b1b1bbb), url('https://images.pexels.com/photos/3568520/pexels-photo-3568520.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    border-radius: 5px 0 0 5px;
+}
+
+.form-section .box1 h3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-shadow: 0px 0px 20px #fff;
+    font-weight: 900;
+}
+
+.form-section .box1 h3 span {
+    background-image: linear-gradient(to right, #ff8a00, #e52e71);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 900;
+    letter-spacing: 1px;
+    display: block;
+    text-align: center;
+    line-height: 80px;
+    text-shadow: none;
+}
+
+.form-section .box2 {
+    width: 50%;
+    background-color: #f2f2f2;
+    border-radius: 0 5px 5px 0;
+}
+
+.form-section .box2 .content
+{
+    margin: 0;
+    border-radius: 0 5px 5px 0;
+}
+
+.form-section .box2 .content .content-header
+{
+    background: linear-gradient(to right, #ff5e62, #ff9966);
+    padding: 10px;
+    letter-spacing: 1px;
+    border-radius: 0 5px 0 0;
+    align-items: center;
+}
+
+.form-section .box2 .content .content-header p
+{
+    color: #fff;
+    text-shadow: 0 0 10px #fff;
+    letter-spacing: 1px;
+}
+
+.form-section .box2 .content .content-header a
+{
+    color: #fff;
+    float: right;
+    text-decoration: none;
+    font-weight: 900;
+    transition: 0.5s all ease-in-out;
+}
+
+.form-section .box2 .content .content-header a:hover
+{
+    color: #1b1b1b;
+}
+
+.form-section .box2 .content .content-body
+{
+    padding: 10px 0;
+    border-radius: 0   0  5px 0;
+}
+
+.form-section .box2 .content .content-body form label
+{
+    color: #e52e71;
+    font-weight: 700;
+}
+
+.form-section .box2 .content .content-body form input
+{
+    border: 1.5px solid #e52e71;
+    border-radius: 0px;
+    transition: 0.5s all ease-in-out;
+}
+
+.form-section .box2 .content .content-body form input:focus
+{
+    box-shadow: none;
+}
+
+.form-section .box2 .content .content-body form input:hover
+{
+    box-shadow: 10px 10px 20px rgba(0,0,0,0.3);
+}
+
+.form-section .box2 .content .content-body form .registerbutton
+{
+    background: linear-gradient(to right, #ff5e62, #ff9966);
+    color: #fff;
+    text-shadow: 0 0 10px #fff;
+    letter-spacing: 1px;
+    height: 40px;
+    transition: 0.5s all  ease-in-out;
+}
+
+.form-section .box2 .content .content-body form .registerbutton:hover
+{
+    background: linear-gradient(to right,#ff9966, #ff5e62);
+}
+/* registration code */
+
+
+/* login code */
+.form-section-login
+{
+    margin: 4em auto;
+    width: 600px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.2);
+}
+
+.form-section-login .box1
+{
+    background: linear-gradient(to right, #1b1b1b7e, #1b1b1bbb), url('https://images.pexels.com/photos/3568520/pexels-photo-3568520.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px 5px 0  0;
+}
+
+.form-section-login .box1 h3
+{
+    padding: 1em;
+    color: #fff;
+    text-align: center;
+    text-shadow: 0px 0px 20px #fff;
+    letter-spacing: 1px;
+}
+
+.form-section-login .box1 h3 span {
+    background-image: linear-gradient(to right, #ff8a00, #e52e71);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 900;
+    letter-spacing: 1px;
+    display: block;
+    text-align: center;
+    line-height: 80px;
+    text-shadow: none;
+}
+
+.form-section-login .box2
+{
+    border-radius: 0 0 5px  5px;
+}
+.form-section-login .box2 .content .content-header form label
+{
+    color: #e52e71;
+    font-weight: 700;
+}
+
+.form-section-login .box2 .content .content-header form input
+{
+    border: 1.5px solid #e52e71;
+    border-radius: 0px;
+    transition: 0.5s all ease-in-out;
+}
+
+.form-section-login .box2 .content .content-header form input:focus
+{
+    box-shadow: none;
+}
+
+.form-section-login .box2 .content .content-header form input:hover
+{
+    box-shadow: 10px 10px 20px rgba(0,0,0,0.3);
+}
+
+
+.form-section-login .box2 .content .content-header form .loginbutton
+{
+    background: linear-gradient(to right, #ff5e62, #ff9966);
+    outline: none;
+    border: none;
+    border-radius: 0px;
+    color: #fff;
+    text-shadow: 0 0 10px #fff;
+    letter-spacing: 1px;
+    height: 40px;
+    transition: 0.5s all  ease-in-out;
+}
+
+.form-section-login .box2 .content .content-header form .loginbutton:hover
+{
+    background: linear-gradient(to right,#ff9966, #ff5e62);
+}
+
+.form-section-login .box2 .content .content-body
+{
+    padding: 0px 0 20px 0;
+}
+
+.form-section-login .box2 .content .content-body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.form-section-login .box2 .content .content-body .centered-link
+{
+    text-decoration: none;
+    background: linear-gradient(to right, #ff5e62, #ff9966);
+    display: inline-block;
+    padding: 10px 20px;
+    color: white;
+}
+
+.form-section-login .box2 .content .content-body .centered-link:hover
+{
+    background: linear-gradient(to right, #ff9966, #ff5e62);
+}
+
+
