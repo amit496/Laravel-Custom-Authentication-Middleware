@@ -4,6 +4,11 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
+/* body
+{
+    background: #ff8a00;
+} */
+
 
 /* registration code */
 .form-section {
@@ -246,4 +251,85 @@
     background: linear-gradient(to right, #ff9966, #ff5e62);
 }
 
+.profile-content-container .profile-content-header .profile-content
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profile-content-container .profile-content-header .profile-content .backbuttonlink
+{
+    background: #605daf;
+    border: 1px solid #605daf;
+    box-shadow:  0   0   10px #605daf;
+    font-size: 17px;
+    color: #fff;
+    text-shadow: 0 0 15px #fff;
+    padding: 8px 30px;
+    border-radius: 5px;
+    transition: 0.5s all ease-in-out;
+}
+
+.profile-content-container .profile-content-header .profile-content .backbuttonlink:hover
+{
+    background-color: #5350a2 !important;
+    border: 1px solid #5350a2;
+}
+
+.profile-content-container .profile-content-body .profile-content .submitBtn
+{
+    background: #605daf;
+    border: 1px solid #605daf;
+    color: #fff;
+    box-shadow:  0   0   10px #605daf;
+    font-size: 17px;
+    text-shadow: 0 0 15px #fff;
+    padding: 8px 30px;
+    border-radius: 5px;
+    width: 100%;
+    transition: 0.5s all ease-in-out;
+}
+
+
+.profile-content-container .profile-content-body .profile-content .submitBtn:hover
+{
+    background-color: #5350a2 !important;
+    border: 1px solid #5350a2;
+}
+
+.dropify-wrapper .dropify-message {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translate(-50%, -50%);
+}
+
+.dropify-wrapper
+{
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.submitBtn
+{
+    background: #605daf;
+    border: 1px solid #605daf;
+    color: #fff;
+    box-shadow:  0   0   10px #605daf;
+    font-size: 17px;
+    text-shadow: 0 0 15px #fff;
+    padding: 8px 30px;
+    border-radius: 5px;
+    width: 100%;
+    cursor: pointer;
+    transition: 0.5s all ease-in-out;
+}
+
+.submitBtn:hover
+{
+    background-color: #5350a2 !important;
+    border: 1px solid #5350a2;
+}
 

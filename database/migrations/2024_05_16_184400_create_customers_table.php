@@ -15,6 +15,7 @@ return new class extends Migration
             $table->id();
             $table->string('name')->nullable();
             $table->string('email')->unique();
+            $table->date('dob')->nullable();
             $table->bigInteger('contact')->nullable();
             $table->string('password')->nullable();
             $table->date('password_update_date')->nullable();

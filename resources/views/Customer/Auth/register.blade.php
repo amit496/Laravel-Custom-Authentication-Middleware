@@ -12,13 +12,11 @@
     <link rel="stylesheet" href="{{asset('Customer/css/style.css')}}">
 </head>
 <body>
-
     <div class="form-section">
         <div class="box1">
             <h3>Laravel Custom Auth <span>RAYS CODING</span></h3>
         </div>
         <div class="box2">
-
             <div class="content">
                 <div class="content-header">
                     <div class="container">
@@ -27,7 +25,6 @@
                                 <p>Create Account</p>
                             </div>
                             <div class="col-lg-6">
-                                {{-- <a href="" class="form-control @error('name') is-invalid @enderror">Already registered</a> --}}
                                 <a href="{{route('customer.login')}}">Already Registered</a>
                             </div>
                         </div>
@@ -38,13 +35,11 @@
                         <div class="row">
                             <form action="{{route('customer.register.submit')}}" method="post">
                                 @csrf
-
                                 @if ($errors->any())
                                     @foreach ($errors->all() as $error)
                                         <p class="alert alert-danger">{{ $error }}</p>
                                     @endforeach
                                 @endif
-
                                 <div class="row mb-3">
                                     <div class="col-lg-12">
                                         <label for="">Name</label>
@@ -87,7 +82,6 @@
             </div>
         </div>
     </div>
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="{{asset('Customer/js/index.js')}}"></script>

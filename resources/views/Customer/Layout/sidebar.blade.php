@@ -7,11 +7,10 @@
     <div class="topbar-left">
         <div class="text-center bg-logo">
             <a href="index.html" class="logo"><i class="mdi mdi-bowling text-success"></i> Rays Coding</a>
-            <!-- <a href="index.html" class="logo"><img src="assets/images/logo.png" height="24" alt="logo"></a> -->
         </div>
     </div>
     <div class="sidebar-user">
-        <img src="assets/images/users/avatar-6.jpg" alt="user" class="rounded-circle img-thumbnail mb-1">
+        <img src="{{ asset('Customer/profile/' . Auth::guard('customer')->user()->profile) }}" alt="user" class="rounded-circle img-thumbnail mb-1">
         <h3 class="">{{Auth::guard('customer')->user()->name}}</h3>
         <h6 class="">{{Auth::guard('customer')->user()->email}}</h6>
         <p class=" online-icon text-dark"><i class="mdi mdi-record text-success"></i>online</p>

@@ -14,6 +14,6 @@ class Customer extends Authenticatable
     use HasFactory, Notifiable;
 
     protected $table = 'customers';
-    protected $fillable = ['name', 'email', 'contact', 'password', 'password_update_date', 'email_varification_status', 'email_varification_date', 'status'];
+    protected $fillable = ['name', 'email', 'dob' ,'contact', 'password', '	profile' ,'password_update_date', 'email_varification_status', 'email_varification_date', 'status'];
 
 }

@@ -1,3 +1,3 @@
 <footer class="footer">
-    © 2022 Zoogler by Mannatthemes.
+    © 2024 Rays Coding
 </footer>
